@@ -1,0 +1,13 @@
+[package]
+name = "lines_lossy"
+version = "0.1.0"
+edition = "2021"
+description = "Provides an extension to `BufRead` with a function `lines_lossy` that works like `BufRead::lines` but with lossy UTF-8 decoding"
+license = "MIT"
+repository = "https://github.com/rodrigorc/lines_lossy"
+categories = ["text-processing", "rust-patterns"]
+keywords = ["lossy", "string", "bufread", "utf-8"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
